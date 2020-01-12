@@ -9,7 +9,7 @@ import './styles/editorControlls.sass';
 
 const EditorControls = ({ bold, italic, underline, toggleBold, toggleItalic, toggleUnderline }) => {
   return (
-    <div>
+    <div className='controllers__container'>
       <button onClick={toggleBold} className={bold ? 'btn btn__clicked' : 'btn'}>
         <FontAwesomeIcon className="btn_controlls" icon={faBold} />
       </button>

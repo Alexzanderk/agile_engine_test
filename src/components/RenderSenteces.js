@@ -18,11 +18,11 @@ const RenderSenteces = ({ listSentences, handleSelectText }) => {
   }
 
   return listSentences.map((item, index) => (
-    <div key={item.id}>
-      <span onDoubleClick={() => handleSelect(index)} className={getClassname(item)}>
+    <ul key={item.id}>
+      <li onDoubleClick={() => handleSelect(index)} className={`${getClassname(item)} list__item`}>
         {item.value}
-      </span>
-    </div>
+      </li>
+    </ul>
   ));
 };
 

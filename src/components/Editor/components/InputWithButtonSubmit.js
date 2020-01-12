@@ -21,18 +21,18 @@ const InputWithButtonSubmit = props => {
     resetEditorValues();
   };
 
-  const handleSubmit = () => submit();
+  const handleSubmit = () => value && submit();
 
   const handleKeyPress = event => {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' && value) {
       submit();
     }
   };
 
   return (
-    <span>
-      <input className="input" value={value} onKeyPress={handleKeyPress} onChange={handleChangeValue} />
-      <button onClick={handleSubmit}>Submit</button>
+    <span className='input__container'>
+      <input className="input" value={value} placeholder='Enter text here' onKeyPress={handleKeyPress} onChange={handleChangeValue} />
+      <button className='btn__submit' onClick={handleSubmit}>Submit</button>
     </span>
   );
 };

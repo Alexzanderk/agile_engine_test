@@ -3,6 +3,8 @@ import { InputWithButtonSubmitComponent } from './components/InputWithButtonSubm
 import { EditorControlsComponent } from './components/EditorControlls';
 import { ResetInputComponent } from './components/ResetInput';
 
+import './styles/editor.sass';
+
 const Editor = () => {
   return (
     <div className="editor">
