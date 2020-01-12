@@ -5,7 +5,7 @@ import { faBold, faUnderline, faItalic } from '@fortawesome/free-solid-svg-icons
 import { editorSelector } from '../../../store/editor/editor.selector';
 import { toggleBold, toggleItalic, toggleUnderline } from '../../../store/editor/editor.actions';
 
-import './editorControlls.sass';
+import './styles/editorControlls.sass';
 
 const EditorControls = ({ bold, italic, underline, toggleBold, toggleItalic, toggleUnderline }) => {
   return (

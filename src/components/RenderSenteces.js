@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { listSelector } from '../store/list/list.selectors';
 import { handleSelectText } from '../store/list/list.actions';
 
-import './renderSenteces.sass';
+import './styles/renderSenteces.sass';
 
 const getClassname = ({ bold, italic, underline }) =>
   `${bold ? 'bold' : ''} ${italic ? 'italic' : ''} ${underline ? 'underline' : ''}`;

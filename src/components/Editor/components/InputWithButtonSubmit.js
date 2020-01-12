@@ -4,7 +4,7 @@ import { v4 } from 'uuid';
 import { handleChangeValue, handleSaveText, resetEditorValues } from '../../../store/editor/editor.actions';
 import { editorSelector } from '../../../store/editor/editor.selector';
 
-import './input.sass';
+import './styles/input.sass';
 
 const InputWithButtonSubmit = props => {
   const { value, bold, italic, underline, id, handleChangeValue, handleSaveText, resetEditorValues } = props;

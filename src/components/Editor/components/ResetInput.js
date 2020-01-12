@@ -5,7 +5,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 import { resetEditorValues } from '../../../store/editor/editor.actions';
 
-import './resetInput.sass';
+import './styles/resetInput.sass';
 
 const ResetInput = ({ resetEditorValues }) => {
   return (
