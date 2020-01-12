@@ -7,6 +7,7 @@ const initialState = {
   italic: false,
   underline: false,
   id: null,
+  synonyms: [],
 };
 
 export const editorReducer = (state = initialState, { type, payload }) => {

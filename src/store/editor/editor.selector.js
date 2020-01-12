@@ -18,4 +18,8 @@ export const editorSelector = {
   getId(state) {
     return state.editor.id;
   },
+
+  getSynonyms(state) {
+    return state.editor.synonyms;
+  },
 };
