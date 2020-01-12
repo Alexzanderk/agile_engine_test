@@ -1,6 +1,6 @@
 # Text editor
 
-## How start prodject?
+## How start project?
 
 ```
 1. Download repository
